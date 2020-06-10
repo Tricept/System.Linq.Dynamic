@@ -2,7 +2,7 @@
 
 namespace System.Linq.Dynamic
 {
-    internal static class DynamicExpression
+    public static class DynamicExpression
     {
         public static LambdaExpression ParseLambda(Type itType, Type resultType, string expression, params object[] values)
         {
